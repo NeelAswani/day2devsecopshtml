@@ -18,7 +18,7 @@ spec:
         app: neeldevsec
     spec:
       containers:
-      - image: neelamaswani/devsecopsneel:tagname
+      - image: neelamaswani/devsecopsneel:httpdv001
         name: devsecopsneel
         imagePullPolicy: Always
         resources: {}
