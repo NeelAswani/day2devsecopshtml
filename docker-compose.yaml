@@ -2,7 +2,8 @@ version: '3.8'
 services:
  ashuhtmlapp: 
   image: httpd:neel001
+  build: .
   container_name: neelc1
   restart: always
   ports:   
-    - "8765:80"
+    - "1991:80"
